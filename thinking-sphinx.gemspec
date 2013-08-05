@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'thinking-sphinx'
-  s.version     = '1.5.0'
+  s.version     = '1.5.0.paperless'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Pat Allan']
   s.email       = ['pat@freelancing-gods.com']
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'activerecord', '~> 2.1'
   s.add_runtime_dependency 'after_commit', '>= 1.0.7'
   s.add_runtime_dependency 'riddle',       '>= 1.5.6'
-  s.add_runtime_dependency 'innertube',    '~> 1.0.2'
+  s.add_runtime_dependency 'innertube',    '~> 1.0'
 
   s.add_development_dependency 'appraisal',     '0.4.0'
   s.add_development_dependency 'cucumber',      '1.0.2'
