@@ -14,7 +14,7 @@ module ThinkingSphinx
       case adapter
       when :mysql
         ThinkingSphinx::MysqlAdapter.new model
-      when :postgresql
+      when /postgresql/
         ThinkingSphinx::PostgreSQLAdapter.new model
       when Class
         adapter.new model
